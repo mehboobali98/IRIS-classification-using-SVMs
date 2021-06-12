@@ -2,6 +2,8 @@
 
 ## Problem Statement
 
+The popular IRIS dataset is used for training of linear and non-linear SVM models. The hyper-parameters are fine-tuned of the models are fine-tuned using K-Fold Cross Validation and GridSearch to improve model performance.
+
 ## Data Set
 
 The dataset is made of examples of irises, each represented with a feature vector of dimension 4.
