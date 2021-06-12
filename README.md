@@ -24,4 +24,27 @@ contain the width and length of the sepal and of the petals.
 
 ## Implementation
 
-## Using K-Fold Cross Validation and GridSearch for hyper-parameter tuning
+- The Scikit-learn implementation of linear and non-linear SVM has been used.
+- SVM have hyper-parameters which need to be fined tuned for better model performance. The fine-tuning was done using:
+  - K-Fold Cross Validation
+  - Grid Search
+
+## Linear SVM
+
+### Decision Boundary
+
+The Fig. below shows the decision boundary obtained using Linear SVM.
+
+<p align="center">
+<img src="/Resources/linear-svm-db.PNG">
+</p>
+
+### Results
+
+The Fig. below shows the cross-validation accuracy of Linear SVM.
+
+<p align="center">
+<img src="/Resources/linear-svm-acc.PNG">
+</p>
+
+### Non-Linear SVM
