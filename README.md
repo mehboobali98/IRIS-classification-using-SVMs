@@ -47,4 +47,43 @@ The Fig. below shows the cross-validation accuracy of Linear SVM.
 <img src="/Resources/linear-svm-acc.PNG">
 </p>
 
-### Non-Linear SVM
+## Non-Linear SVM
+
+### Decision Boundary
+
+The Fig. below shows the decision boundary obtained using Linear SVM.
+
+<p align="center">
+<img src="/Resources/non-linear-svm-db.PNG">
+</p>
+
+### Results
+
+Detailed results have been provided in the Report.pdf file.
+
+The Fig. below shows the cross-validation accuracy of Linear SVM.
+
+<p align="center">
+<img src="/Resources/non-linear-svm-acc.PNG">
+</p>
+
+## Frameworks Used
+
+- Scikit-learn
+
+# Directory Structure
+
+<pre>
+📦IRIS-classification-using-SVMs
+┣ 📂Documents
+┃ ┣ 📜Report.pdf
+┃ ┗ 📜Task Description.docx
+┣ 📂Resources
+┃ ┣ 📜linear-svm-acc.PNG
+┃ ┣ 📜linear-svm-db.PNG
+┃ ┣ 📜non-linear-svm-acc.PNG
+┃ ┗ 📜non-linear-svm-db.PNG
+┣ 📜Linear_SVM.ipynb
+┣ 📜Non-Linear_SVC.ipynb
+┗ 📜README.md
+</pre>
